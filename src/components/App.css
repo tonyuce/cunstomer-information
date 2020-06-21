@@ -1,0 +1,17 @@
+
+.App-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-heading{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}  
+
+
