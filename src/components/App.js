@@ -12,7 +12,7 @@ function App() {
     
   const showAddress = (event) => {
     const customerId = event.currentTarget.dataset.key;
-    fetch(`http://localhost:8080/address/${customerId}`)
+    fetch(`/address/${customerId}`)
     .then(results => results.json())
     .then(data => {
       setAddress(data);
@@ -21,7 +21,7 @@ function App() {
   };
 
   useEffect(() => {  
-    fetch(`http://localhost:8080/customers`)
+    fetch(`/customers`)
     .then(results => results.json())
     .then(data => {
         setData(data);
