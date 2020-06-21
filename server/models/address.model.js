@@ -16,7 +16,6 @@ Address.findById = (customerId, result) => {
     }
 
     if (res.length) {
-      console.log("found Address of customer: ", res[0]);
       result(null, res);
       return;
     }
