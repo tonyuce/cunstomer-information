@@ -1,0 +1,13 @@
+.Table-container{
+  width: 600px;
+  float:left;
+  margin-left: 30px;
+}
+.Table{
+  font-size: 16px;
+  border: 1px solid #FFF;
+}
+.Show-address {
+  color: #61dafb;
+  cursor: pointer;
+} 
